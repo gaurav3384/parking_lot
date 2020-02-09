@@ -1,6 +1,7 @@
 package com.gg;
 
-import org.junit.Before;
+import com.gg.parkinglot.Parking;
+import com.gg.parkinglot.ParkingImpl;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
