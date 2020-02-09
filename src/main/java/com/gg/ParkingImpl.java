@@ -69,4 +69,12 @@ public class ParkingImpl implements Parking {
         }
         return res;
     }
+
+    public Queue<Integer> getEmptySlots() {
+        return emptySlots;
+    }
+
+    public Map<Integer, Vehicle> getFilledSlots() {
+        return filledSlots;
+    }
 }
